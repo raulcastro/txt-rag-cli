@@ -1,0 +1,16 @@
+# txt-rag-cli dependencies - Minimal for chunking
+
+# Encoding detection
+chardet>=5.2.0
+
+# HTTP client for API calls (Ollama)
+requests>=2.31.0
+
+# Data processing
+numpy>=1.24.0
+
+# CLI interface (optional, for better UX)
+rich>=13.0.0
+
+# Vector database (optional for now, heavy dependency)
+# lancedb>=0.9.0
